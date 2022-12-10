@@ -25,7 +25,7 @@ class _GridTaskState extends State<GridTask> {
       ),
       backgroundColor: Colors.black,
       body: Padding(
-        padding: const EdgeInsets.all(10.0),
+        padding: const EdgeInsets.symmetric(horizontal: 10,vertical: 10),
         child: GridView.count(crossAxisCount: 3,
         crossAxisSpacing: 10,
         mainAxisSpacing: 10,
